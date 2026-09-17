@@ -20,6 +20,18 @@ python examples/test_atmosphere.py
 python examples/basic_flight.py
 ```
 
+## Interactive dashboard
+
+Launch the browser-based frontend from the project root:
+
+```powershell
+streamlit run app.py
+```
+
+Use the sidebar to adjust the rocket and aerodynamic parameters. The dashboard
+reports mission metrics, plots altitude, velocity, acceleration, and dynamic
+pressure, and lets you download the simulated flight data as CSV.
+
 Run the tests with:
 
 ```powershell
